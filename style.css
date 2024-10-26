@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  outline: 0px;
+  position: relative;
+  z-index: 0;
+  list-style-type: none;
+}
+
+body {
+  height: 100svh;
+  max-height: 100svh;
+
+  width: 100svw;
+  max-width: 100svw;
+  background-image: url("https://img.freepik.com/free-photo/make-up-brushes-copy-space-top-view_23-2148408348.jpg?t=st=1729859189~exp=1729862789~hmac=f153e1276441a9d818b48829b7aad8e6449d326b13c9253e56ff6f8f60c28044&w=1480");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  padding: 60px 32px;
+  width: 370px;
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+  z-index: 9;
+  transform: translate(-50%, -50%)
+}
+
+.content h2 {
+  color: white;
+  font-size: 33px;
+
+  margin: 0 0 35px 0;
+
+  animation-name: h2color;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes h2color {
+  0% {
+    color: pink;
+  }
+
+  25% {
+    color: rgb(249, 10, 185);
+  }
+
+  50% {
+    color: rgb(187, 34, 146);
+  }
+
+  75% {
+    color: rgb(139, 38, 112);
+  }
+
+  100% {
+    color: rgb(215, 0, 239);
+  }
+}
+
+
+.field1 {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #222;
+  margin-top: 30px;
+  font-size: 16px;
+  background-color: pink;
+  padding: 5px;
+}
+
+.field1:hover {
+  background: #27a6fa;
+  color: white;
+}
